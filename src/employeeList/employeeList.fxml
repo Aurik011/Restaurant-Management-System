@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  CTRL + / comments on netbeans   -->
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!--
+
+THIS IS THE REAL MASTERCOPY OF THE BUTTON BECAUSE JFXBUTTON HAS BEEN CREATED HERE !
+
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeeList.EmployeeListController">
+   <children>
+      <TextField editable="false" layoutX="111.0" layoutY="14.0" prefHeight="77.0" prefWidth="378.0" text="Welcome to employee list panel !">
+         <font>
+            <Font size="23.0" />
+         </font></TextField>
+      <TextField editable="false" layoutX="141.0" layoutY="308.0" prefHeight="39.0" prefWidth="300.0" text="Or you can just explore the names of our employees" />
+      <Button layoutX="390.0" layoutY="134.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="196.0" text="Report a problem " textFill="#ff1205" />
+      <Button layoutX="390.0" layoutY="187.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="196.0" text="Emergency Services" textFill="#ef0000" />
+      <DatePicker editable="false" layoutX="390.0" layoutY="101.0" prefHeight="25.0" prefWidth="196.0" promptText="Pick A date for database info" />
+      <JFXButton buttonType="RAISED" layoutX="21.0" layoutY="134.0" prefHeight="49.0" prefWidth="223.0" style="-fx-background-color: #ffffff;" text="Click here to login(if you'are an employee)" />
+      <JFXButton buttonType="RAISED" layoutX="21.0" layoutY="187.0" prefHeight="49.0" prefWidth="223.0" style="-fx-background-color: #ffffff;" text="Delivery Delay Report(Customer Only)" />
+      <JFXButton buttonType="RAISED" layoutX="167.0" layoutY="347.0" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: #ffffff;" text="Click to View " />
+   </children>
+</AnchorPane> -->
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="employeeList.EmployeeListController">
+   <children>
+      <JFXButton buttonType="RAISED" layoutX="390.0" layoutY="183.0" prefHeight="49.0" prefWidth="196.0" style="-fx-background-color: #ffffff;" text="Report a problem " textFill="#f00000">
+         <font>
+            <Font size="20.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="390.0" layoutY="236.0" prefHeight="49.0" prefWidth="196.0" style="-fx-background-color: #ffffff;" text="Emergency Services" textFill="#eb0707">
+         <font>
+            <Font size="18.0" />
+         </font></JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="10.0" layoutY="185.0" prefHeight="49.0" prefWidth="254.0" style="-fx-background-color: #ffffff;" text="Click here to login(if you'are an employee)" />
+      <JFXButton buttonType="RAISED" layoutX="10.0" layoutY="238.0" prefHeight="49.0" prefWidth="254.0" style="-fx-background-color: #ffffff;" text="Delivery Delay Report(Customer Only)" />
+      <JFXButton buttonType="RAISED" layoutX="180.0" layoutY="361.0" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: #ffffff;" text="Click to View " />
+      <Text layoutX="59.0" layoutY="355.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Or you can just explore the names of our employees">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="300.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to the employee list panel !" wrappingWidth="275.59375">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="137.0" fitWidth="245.0" layoutX="14.0" layoutY="14.0">
+         <image>
+            <Image url="@../lllllllllllll.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

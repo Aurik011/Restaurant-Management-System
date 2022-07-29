@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<!-- This line resolves the error that JFXButton was not found  -->
+<!--<JFXButton buttonType="RAISED" layoutX="67.0" layoutY="22.0" onAction="#showLoginPage" prefHeight="38.0" prefWidth="66.0" style="-fx-background-color: #ffffff;" text="Log In" />    -->
+<!--
+
+            MASTERCOPY
+    <Pane layoutX="179.0" layoutY="256.0" prefHeight="82.0" prefWidth="200.0">
+         <children>
+            <Button layoutX="67.0" layoutY="22.0" mnemonicParsing="false" onAction="#showLoginPage" prefHeight="38.0" prefWidth="66.0" text="Log In">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Button>
+         </children>
+      </Pane>-->
+
+<AnchorPane id="AnchorPane" prefHeight="432.0" prefWidth="557.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.startPageController">
+   <children>
+      <Pane layoutX="179.0" layoutY="308.0" prefHeight="82.0" prefWidth="200.0">
+         <children>
+                                <JFXButton buttonType="RAISED" layoutX="67.0" layoutY="22.0" onAction="#showLoginPage" prefHeight="38.0" prefWidth="66.0" style="-fx-background-color: #ffffff;" text="Log In" />
+         </children>
+      </Pane>
+        <JFXButton buttonType="RAISED" layoutX="288.0" layoutY="233.0" onAction="#showAbout" prefHeight="65.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="About" />
+        <JFXButton buttonType="RAISED" layoutX="398.0" layoutY="233.0" onAction="#showContact" prefHeight="65.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Contact " />
+        <JFXButton buttonType="RAISED" layoutX="177.0" layoutY="233.0" onAction="#showEmployeeList" prefHeight="65.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Employee list " />
+      
+                         <JFXButton buttonType="RAISED" layoutX="64.0" layoutY="233.0" onAction="#showFoodPage" prefHeight="65.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Food menu" />
+      <Text layoutX="53.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Restaurant Management System" wrappingWidth="481.64453125">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="184.0" fitWidth="264.0" layoutX="147.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../GT.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

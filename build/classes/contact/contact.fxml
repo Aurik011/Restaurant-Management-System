@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contact.ContactController">
+   <children>
+      <Text layoutX="23.0" layoutY="17.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome to Contacts Panel : " wrappingWidth="165.47006225585938" />
+      <Hyperlink layoutX="14.0" layoutY="263.0" prefHeight="40.0" prefWidth="215.0" text="Terms And Conditions">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Hyperlink>
+      <Hyperlink layoutX="14.0" layoutY="334.0" prefHeight="25.0" prefWidth="151.0" text="Thank you">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Hyperlink>
+      <JFXButton buttonType="RAISED" layoutX="414.0" layoutY="130.0" onAction="#ridirect" prefHeight="40.0" prefWidth="180.0" style="-fx-background-color: #ffffff;" text="dbmsRestaurant.info" />
+      <JFXButton buttonType="RAISED" layoutX="262.0" layoutY="173.0" prefHeight="40.0" prefWidth="331.0" style="-fx-background-color: #ffffff;" text="restaurantmanagementsystem433140294.wordpress.com" />
+      <ImageView fitHeight="40.0" fitWidth="151.0" layoutX="438.0" layoutY="355.0">
+         <image>
+            <Image url="@../contact_us.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="92.0" layoutX="367.0" layoutY="354.0">
+         <image>
+            <Image url="@../contact-us-0.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="23.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="We are here to provide you with our contact info in case you need us." wrappingWidth="538.13671875">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="154.0" fitWidth="180.0" layoutX="23.0" layoutY="87.0">
+         <image>
+            <Image url="@../800px_COLOURBOX11314584.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="23.0" layoutY="380.0" strokeType="OUTSIDE" strokeWidth="0.0" text="(This will redirect you to survey page)" wrappingWidth="279.13671875">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <Text layoutX="23.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click above to check terms&amp;conditions" wrappingWidth="250.13671875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>
